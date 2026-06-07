@@ -1,0 +1,78 @@
+body {
+    padding: 20px;
+    width: 400px;
+    height: 500px;
+    margin: 10px auto;
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 12px;
+}
+
+.header {
+    height: 60px;
+    background-color: rgb(57, 200, 240);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.main {
+    padding: 20px;
+    background: white;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.inEmail input,
+.inPassword input {
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.button {
+    background-color: red;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.button:hover {
+    background-color: rgb(126, 7, 7);
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer img {
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px auto 0;
+}
+.footer h3 {
+    color: rgb(57, 200, 240);
+    font-size: 22px;
+}
+.footer a {
+    color: rgb(57, 200, 240);
+    text-decoration-line: none;
+}
