@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    border: 1px solid grey;
+    width: 400px;
+    margin-left: 400px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: white;
+    padding: 10px;
+    grid-gap: 20px;
+}
+
+.grid button {
+    display: flex;
+    border: 1px solid grey;
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+#input {
+    grid-column: span 4;
+    height: 60px;
+    background: #fff;
+    text-align: right;
+    font-size: 25px;
+}
+
+.item-math {
+    grid-column: span 1;
+    background-color: rgb(188, 186, 186);
+}
+
+.item-equal {
+    grid-row: span 4;
+    background-color: rgb(38, 133, 236);
+    color: white;
+    line-height: 300px;
+}
+
+.item-number .item-clear {
+    grid-column: span 1;
+}
